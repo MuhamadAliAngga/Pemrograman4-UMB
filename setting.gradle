@@ -1,3 +1,0 @@
-// File: settings.gradle
-include ':app'
-rootProject.name = "Pemrograman4-UMB"
