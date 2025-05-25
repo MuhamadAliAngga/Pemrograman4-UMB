@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/futuristic_gradient"
+    tools:context=".homeactivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- Judul -->
+        <TextView
+            android:id="@+id/home_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="👋 Selamat Datang!"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aplikasi UTS - Muhammad Ali Angga"
+            android:textSize="16sp"
+            android:textColor="#DDDDDD" />
+
+        <!-- Spacer -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <!-- Menu Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/box_background"
+            android:padding="24dp"
+            android:elevation="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btn_profile"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="👤 Profile"
+                android:background="@drawable/button_gradient"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/btn_settings"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="⚙️ Pengaturan"
+                android:background="@drawable/button_gradient"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/btn_logout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="🚪 Logout"
+                android:background="@drawable/button_gradient"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
